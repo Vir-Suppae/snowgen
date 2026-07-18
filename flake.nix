@@ -13,9 +13,8 @@
   {
     devShells.${system}.default = pkgs.mkShell {
       packages = with pkgs; [
-        lua
-        lua-language-server
-        stylua
+        zig
+        zls
       ];
     };
   };
